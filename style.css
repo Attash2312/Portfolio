@@ -1,11 +1,14 @@
 *{
+    margin: 0;
     padding: 0;
     font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
 
 }
 
+
 .project-container{ 
-    width: 375px;
+    width: 100%;
     background-color: #f7f0f0;
 }
 
@@ -422,8 +425,8 @@ form{
         @media (min-width: 768px) {
 
            body{
-            
-            width:100%;
+            overflow-x: hidden;
+            width: 85%;
            }
         
             .project-container {
@@ -706,3 +709,15 @@ form{
 
         }
         
+         
+         @media (min-width: 1025px) {
+            body {
+               width: 80%;
+            }
+         }
+         
+         @media (min-width: 1441px) {
+            body {
+               width: 75%;
+            }
+         }

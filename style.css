@@ -102,6 +102,15 @@ color: #7F8CFF;
     justify-content: center;
 }
 
+.projects img{
+    width: 295px;
+    height: 220px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    
+}
+
 .project1{
     margin-top: 20px;
     background-color: #fff;
@@ -406,17 +415,19 @@ form{
             text-align: center;
         }
 
+        .lang-list-desk{
+            display: none;
+        }
 
         @media (min-width: 768px) {
 
            body{
             
-            overflow-x: hidden;
-            max-width: 1440px;
+            width:100%;
            }
         
             .project-container {
-                width: 350%; 
+                width: 100%; 
             }
         
             .header {
@@ -464,6 +475,8 @@ form{
                 height: 500px;
                 padding-top: 80px;
                 background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         
             .headline .content {
@@ -507,6 +520,42 @@ form{
       margin-left:50px;
         
      }
+
+     .project2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+      margin-left: 50px;
+      display: flex;
+      flex-direction: row-reverse;
+        
+     }
+
+     .project2 .pr-content{
+        margin-right: -200px;
+     }
+
+     .project3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+      margin-left:50px;
+        
+     }
+
+     .project4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+      margin-left:50px;
+      display: flex;
+      flex-direction: row-reverse;
+        
+     }
+     .project4 .pr-content{
+        margin-right: -200px;
+     }
+
      .project-box img{
 
 
@@ -534,13 +583,126 @@ form{
         size: 18px;
         color: #344563;
 
-        margin-top: -25px;
+        margin-top: -30px;
         gap: 0px;
         opacity: 0px;
      }
         .pr-content ul{
-            margin-top: -25px;
+            margin-top: -30px;
+        }
 
+        .pr-content p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #344563;
+            margin-top: 0px;}
+
+            .pr-content .langs{
+               display: flex;
+               justify-content:flex-start;
+            }
+
+            .langs button{
+                width: 80px;
+                height: 24px;
+                padding: 0px;
+                border-radius: 8px;
+                margin: 10px;
+                background: #EBEBFF;
+                border-radius: 8px;
+                color: #6070FF;
+                box-shadow:none;
+            }
+
+            .project3 .see-pr button{
+                background: #4053FC;
+                color: #ffff;
+            }
+
+            .about-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                background-color: #ffff;
+            }
+
+            .res-btn{
+                padding-top: 10px;
+            }
+
+            .res-btn button{
+                color: #396DF2;
+                font-size: 17px;
+                font-weight: 500;
+                gap: 10px;
+                width: 160px;
+                height: 48px;
+                background: #ffff;
+                border-radius: 8px;
+                border-color: #6070FF;
+            }
+
+            .lang-list-mob{
+                display: none;
+            }
+            
+            .lang-list-desk{
+                display: block;
+                padding-top: 20px;
+                padding-left: 20px;
+                padding-right: 80px;
+            }
+
+            .ctc-img img{
+                display: none;
+            }
+
+            .contact-section{
+                padding-top: 800px;
+                background-image: url('images/Desktop/contact\ form\ background\ shapes@2x.png');
+                background-color: #6070FF;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 80px 0 0 0;
+            }
+
+            .ctc-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 200px;
+                padding-right: 200px;
+            }
+            .ctc-content p{
+                padding-left: 100px;
+                width: 569px;
+                height: 102px;
+                gap: 0px;
+                opacity: 0px;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+
+
+            }
+            
+            .form-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding-right: 200px;
+            }
+
+            .form-container input{
+                border-radius:0;
+                width: 200%;
+            }
 
         }
         

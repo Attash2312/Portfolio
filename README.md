@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, experience, and the projects I have worked on. It provides an insight into my work and offers a way for potential clients or employers to contact me.
+Welcome to my personal portfolio website! This project is a practice exercise to showcase my skills in HTML and CSS. It provides insight into my work and offers a way for potential clients or employers to contact me.
 
 ## Features
 

@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "hint": "^7.1.13"
+  },
+  "dependencies": {
+    "portfolio": "file:"
   }
 }
